@@ -3498,7 +3498,7 @@ static void dm_CheckPbcGPIO(_adapter *padapter)
 	{
 		// Here we only set bPbcPressed to true
 		// After trigger PBC, the variable will be set to false		
-		DBG_8192C("CheckPbcGPIO - PBC is pressed, try_cnt=%d\n", i-1);
+		//Ali-DBG_8192C("CheckPbcGPIO - PBC is pressed, try_cnt=%d\n", i-1);
                 
 #ifdef RTK_DMP_PLATFORM
 #if (LINUX_VERSION_CODE > KERNEL_VERSION(2,6,12))
